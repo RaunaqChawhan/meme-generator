@@ -28,6 +28,19 @@
   color: #61dafb;
 }
 
+.meme-header img {
+  width: 100px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.meme-header p {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
