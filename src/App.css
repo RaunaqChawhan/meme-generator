@@ -7,6 +7,32 @@
   pointer-events: none;
 }
 
+.meme {
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.meme img {
+  width: 100%;
+}
+
+.meme .top {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #FFF;
+}
+
+.meme .bottom {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #FFF;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
